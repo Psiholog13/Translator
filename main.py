@@ -1,14 +1,7 @@
 
 from googletrans import Translator
 
-class git init
-git add --all
-git commit -m "M1L4 - my translator"
-git branch -M main
-git remote add origin https://github.com/Psiholog13/Perevod.git
-git push -u origin main
-
-:
+class Translator:
     def __init__(self, word_obj):
         self.word = word_obj
         self.translator = Translator()
