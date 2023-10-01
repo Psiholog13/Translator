@@ -31,7 +31,7 @@ translator1 = Translator("яблоко")
 print(translator1.translator_text())
 translator2 = Translator("technology")
 print(translator2.translator_text())
-
+#кгврпгщпщвщ
 
 
 
