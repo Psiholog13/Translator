@@ -13,12 +13,41 @@ class Translator:
             'человек': 'human'
         }
         self.english_dict = {
-                            'program': 'программа',
-                            'technology': 'технология',
-                            'innovation': 'инновация',
-                            'super man': 'супермен'
+            'program': 'программа',
+            'technology': 'технология',
+            'innovation': 'инновация',
+            'super man': 'супермен'
         }
-
+        self.arabik_dict = {
+            'البرنامج': 'программа',
+            'التكنولوجيا': 'технология',
+            'الابتكار': 'инновация',
+            'سوبرمان': 'супермен'
+        }
+        self.China_dict = {
+            '计划': 'программа',
+            '科技': 'технология',
+            '创新科技': 'инновация',
+            '超人': 'супермен'
+        }
+        self.Japanese_dict = {
+            'プログラム': 'программа',
+            '技術': 'технология',
+            'イノベーション': 'инновация',
+            'スーパーマン': 'супермен'
+        }
+        self.Belarus_dict = {
+            'праграма': 'программа',
+            'тэхналогія': 'технология',
+            'інавацыя': 'инновация',
+            'супермэн': 'супермен'
+        }
+        self.German_dict = {
+            'das Programm': 'программа',
+            'Technologie': 'технология',
+            'Innovation': 'инновация',
+            'Superman': 'супермен'
+        }
     def translator_text(self):
         if self.word in self.russian_dict:
             return self.russian_dict[self.word]
@@ -29,8 +58,65 @@ class Translator:
 
 translator1 = Translator("яблоко")
 print(translator1.translator_text())
-translator2 = Translator("technology")
+translator2 = Translator("я")
 print(translator2.translator_text())
+translator3 = Translator("банан")
+print(translator3.translator_text())
+translator4 = Translator("город")
+print(translator4.translator_text())
+translator5 = Translator("человек")
+print(translator5.translator_text())
+translator6 = Translator("technology")
+print(translator6.translator_text())
+translator7 = Translator("program")
+print(translator7.translator_text())
+translator8 = Translator("innovation")
+print(translator8.translator_text())
+translator9 = Translator("super man")
+print(translator9.translator_text())
+translator9 = Translator("البرنامج")
+print(translator9.translator_text())
+translator9 = Translator("التكنولوجيا")
+print(translator9.translator_text())
+translator9 = Translator("الابتكار")
+print(translator9.translator_text())
+translator9 = Translator("سوبرمان")
+print(translator9.translator_text())
+translator9 = Translator("计划")
+print(translator9.translator_text())
+translator9 = Translator("科技")
+print(translator9.translator_text())
+translator9 = Translator("创新科技")
+print(translator9.translator_text())
+translator9 = Translator("超人")
+print(translator9.translator_text())
+translator9 = Translator("プログラム")
+print(translator9.translator_text())
+translator9 = Translator("技術")
+print(translator9.translator_text())
+translator9 = Translator("イノベーション")
+print(translator9.translator_text())
+translator9 = Translator("スーパーマン")
+print(translator9.translator_text())
+translator9 = Translator("праграма")
+print(translator9.translator_text())
+translator9 = Translator("тэхналогія")
+print(translator9.translator_text())
+translator9 = Translator("інавацыя")
+print(translator9.translator_text())
+translator9 = Translator("супермэн")
+print(translator9.translator_text())
+translator9 = Translator("das Programm")
+print(translator9.translator_text())
+translator9 = Translator("Technologie")
+print(translator9.translator_text())
+translator9 = Translator("Innovation")
+print(translator9.translator_text())
+translator9 = Translator("Superman")
+print(translator9.translator_text())
+
+
+
 #кгврпгщпщвщ
 
 
